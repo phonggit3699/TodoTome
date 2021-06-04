@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0160C02631BDD50037062F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0160BF2631BDD50037062F /* AlertView.swift */; };
+		3D01614B2637FEFA0037062F /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D01614A2637FEFA0037062F /* FormView.swift */; };
 		3D85BCC3262BCA850080F740 /* TodoTomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCC2262BCA850080F740 /* TodoTomeApp.swift */; };
 		3D85BCC5262BCA850080F740 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCC4262BCA850080F740 /* ContentView.swift */; };
 		3D85BCC7262BCA870080F740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D85BCC6262BCA870080F740 /* Assets.xcassets */; };
 		3D85BCCA262BCA870080F740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D85BCC9262BCA870080F740 /* Preview Assets.xcassets */; };
+		3D85BCD3262BCAA20080F740 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCD2262BCAA20080F740 /* Todo.swift */; };
+		3D85BCDA262BCBA10080F740 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCD9262BCBA10080F740 /* TodoView.swift */; };
+		3D85BCDD262BD0300080F740 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCDC262BD0300080F740 /* TodoListView.swift */; };
+		3D85BCE0262BD3890080F740 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCDF262BD3890080F740 /* TodoModel.swift */; };
+		3D85BCE4262BE3E30080F740 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCE3262BE3E30080F740 /* AddTodoView.swift */; };
+		3D85BCE7262DD1E00080F740 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D85BCE6262DD1E00080F740 /* TestView.swift */; };
+		3D85BCEA262E924E0080F740 /* SaveData in Resources */ = {isa = PBXBuildFile; fileRef = 3D85BCE9262E924E0080F740 /* SaveData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D0160BF2631BDD50037062F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		3D01614A2637FEFA0037062F /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		3D85BCBF262BCA850080F740 /* TodoTome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoTome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D85BCC2262BCA850080F740 /* TodoTomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTomeApp.swift; sourceTree = "<group>"; };
 		3D85BCC4262BCA850080F740 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D85BCC6262BCA870080F740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D85BCC9262BCA870080F740 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D85BCCB262BCA870080F740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D85BCD2262BCAA20080F740 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		3D85BCD9262BCBA10080F740 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		3D85BCDC262BD0300080F740 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		3D85BCDF262BD3890080F740 /* TodoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
+		3D85BCE3262BE3E30080F740 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		3D85BCE6262DD1E00080F740 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		3D85BCE9262E924E0080F740 /* SaveData */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SaveData; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +70,20 @@
 		3D85BCC1262BCA850080F740 /* TodoTome */ = {
 			isa = PBXGroup;
 			children = (
+				3D85BCE9262E924E0080F740 /* SaveData */,
 				3D85BCC2262BCA850080F740 /* TodoTomeApp.swift */,
 				3D85BCC4262BCA850080F740 /* ContentView.swift */,
 				3D85BCC6262BCA870080F740 /* Assets.xcassets */,
 				3D85BCCB262BCA870080F740 /* Info.plist */,
 				3D85BCC8262BCA870080F740 /* Preview Content */,
+				3D85BCD2262BCAA20080F740 /* Todo.swift */,
+				3D85BCD9262BCBA10080F740 /* TodoView.swift */,
+				3D85BCDC262BD0300080F740 /* TodoListView.swift */,
+				3D85BCE3262BE3E30080F740 /* AddTodoView.swift */,
+				3D0160BF2631BDD50037062F /* AlertView.swift */,
+				3D85BCDF262BD3890080F740 /* TodoModel.swift */,
+				3D85BCE6262DD1E00080F740 /* TestView.swift */,
+				3D01614A2637FEFA0037062F /* FormView.swift */,
 			);
 			path = TodoTome;
 			sourceTree = "<group>";
@@ -127,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D85BCCA262BCA870080F740 /* Preview Assets.xcassets in Resources */,
+				3D85BCEA262E924E0080F740 /* SaveData in Resources */,
 				3D85BCC7262BCA870080F740 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D85BCD3262BCAA20080F740 /* Todo.swift in Sources */,
 				3D85BCC5262BCA850080F740 /* ContentView.swift in Sources */,
+				3D01614B2637FEFA0037062F /* FormView.swift in Sources */,
+				3D0160C02631BDD50037062F /* AlertView.swift in Sources */,
+				3D85BCE4262BE3E30080F740 /* AddTodoView.swift in Sources */,
+				3D85BCDD262BD0300080F740 /* TodoListView.swift in Sources */,
+				3D85BCE7262DD1E00080F740 /* TestView.swift in Sources */,
+				3D85BCE0262BD3890080F740 /* TodoModel.swift in Sources */,
+				3D85BCDA262BCBA10080F740 /* TodoView.swift in Sources */,
 				3D85BCC3262BCA850080F740 /* TodoTomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
